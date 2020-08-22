@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import classes from './StudentMarkCard.module.css';
 import Students from './Students';
 import { SortDirEnum } from '../modals/SortDirModal';
+import PerfectScrollbar from 'react-perfect-scrollbar';
 
 const StudentMarkCard = (props) => {
     const [sortDir, setSortDir] = useState(SortDirEnum.ASC);
@@ -50,7 +51,9 @@ const StudentMarkCard = (props) => {
             </div>
             <div className={classes.Divider}></div>
             <div className={classes.Students}>
-                <Students sortDir={sortDir} />
+                <PerfectScrollbar>
+                    <Students sortDir={sortDir} />
+                </PerfectScrollbar>
             </div>
         </div>
     );
