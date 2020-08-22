@@ -7,13 +7,13 @@ const Header = (props) => {
     const role = 'Lecturer';
 
     return (
-        <nav className={classes.Header}>
+        <nav className={classes.Header} data-test="header">
             <div className={classes.ProfileContainer}>
                 <div className={classes.TextsContainer}>
                     <div className={classes.UserName}>{userName}</div>
                     <div className={classes.Role}>{role}</div>
                 </div>
-                <Icon imagePath="/assets/images/19.png"/>
+                <Icon imagePath="/assets/images/19.png" />
                 <svg
                     className={classes.More}
                     width="24"
