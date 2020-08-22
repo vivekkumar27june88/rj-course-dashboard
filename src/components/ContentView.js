@@ -4,7 +4,7 @@ import Dashboard from './Dashboard';
 
 const ContentView = (props) => {
     return (
-        <div className={classes.ContentView}>
+        <div className={classes.ContentView} data-test="contentView">
             <Dashboard />
         </div>
     );
