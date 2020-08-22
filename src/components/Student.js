@@ -6,7 +6,7 @@ const Student = (props) => {
     const { name, marks, id } = props.student;
 
     return (
-        <div className={classes.Student}>
+        <div className={classes.Student} data-test="student">
             <Icon imagePath={`/assets/images/${id % 12}.png`} />
             <div className={classes.StudentName}>{name}</div>
             <div className={classes.Marks}>{marks}</div>
