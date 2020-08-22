@@ -14,7 +14,10 @@ const DashboardMetricCards = (props) => {
     }, []);
 
     return (
-        <div className={classes.DashboardMetricCards}>
+        <div
+            className={classes.DashboardMetricCards}
+            data-test="DashboardMetricCards"
+        >
             {metrices.map((metrice) => {
                 let imagePath;
                 let bgColor;
