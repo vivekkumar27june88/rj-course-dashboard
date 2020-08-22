@@ -1,11 +1,12 @@
 .Header {
+    position: fixed;
     display: flex;
     align-items: center;
     justify-content: flex-end;
     width: 100%;
-    outline: 1px solid salmon;
-    height: calc(50px + 27px + 27px);
+    height: var(--rcd-header-height);
     padding-right: 121px;
+    background-color: var(--rcd-bg-col);
 }
 
 .ProfileContainer {
@@ -29,6 +30,5 @@
 }
 
 .More {
-    padding-left: 18px;
     align-self: center;
 }

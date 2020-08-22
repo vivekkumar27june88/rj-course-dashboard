@@ -1,0 +1,36 @@
+.Dashboard {
+    display: flex;
+    flex-direction: column;
+    min-height: calc(100vh - var(--rcd-header-height));
+    padding-left: 60px;
+    padding-bottom: 78px;
+}
+
+.HeadingRow1 {
+    display: inline-block;
+}
+
+.HeadingRow1 h1 {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36px;
+    letter-spacing: 0.01em;
+    padding-bottom: 10px;
+}
+
+.HeadingRow1 p {
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.01em;
+
+    color: var(--rcd-text-secondary-col);
+}
+
+.Row2 {
+    display: inline-block;
+}
+
+.Row3 {
+    margin-top: 32px;
+    display: inline-block;
+}

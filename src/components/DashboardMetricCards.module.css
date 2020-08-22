@@ -1,0 +1,6 @@
+.DashboardMetricCards {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-top: 45px;
+}

@@ -1,8 +1,9 @@
 .Navbar {
     display: block;
+    position: fixed;
     min-height: 100vh;
     height: 100%;
-    width: 100px;
+    width: var(--rcd-sidenav-height);
     background-color: var(--rcd-sidenav-bg-col);
 }
 

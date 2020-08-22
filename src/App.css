@@ -1,10 +1,15 @@
 :root {
+    /* Colors */
     --rcd-bg-col: #dfe1eb;
     --rcd-sidenav-bg-col: #373b53;
     --rcd-card-bg-col: #ffffff;
     --rcd-text-secondary-col: #a6acbe;
     --rcd-text-primary-col: #000000;
     --rcd-icon-border-col: #ccc;
+
+    /* Dimensions */
+    --rcd-sidenav-width: 100px;
+    --rcd-header-height: 94px; /* 50px + 27px + 27px */
 }
 
 .App {
@@ -21,4 +26,5 @@
     display: flex;
     flex-direction: column;
     width: calc(100vw - 100px);
+    padding-left: var(--rcd-sidenav-width);
 }

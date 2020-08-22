@@ -1,0 +1,30 @@
+.Student {
+    display: grid;
+    grid-template-columns: max-content 1fr max-content;
+    align-items: center;
+    padding-right: 25px;
+    padding: 15px 25px 15px 0px;
+    grid-gap: 15px;
+}
+
+.StudentName {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.01em;
+    color: var(--rcd-text-secondary-col);
+}
+
+.Marks {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    letter-spacing: 0.01em;
+    color: var(--rcd-text-primary-col);
+}

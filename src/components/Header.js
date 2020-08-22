@@ -13,9 +13,9 @@ const Header = (props) => {
                     <div className={classes.UserName}>{userName}</div>
                     <div className={classes.Role}>{role}</div>
                 </div>
-                <Icon className={classes.Icon} />
+                <Icon imagePath="/assets/images/19.png"/>
                 <svg
-                className={classes.More}
+                    className={classes.More}
                     width="24"
                     height="24"
                     viewBox="0 0 24 24"

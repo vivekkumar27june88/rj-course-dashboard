@@ -5,7 +5,10 @@ const Navbar = (props) => {
     return (
         <section className={classes.Navbar}>
             <div className={classes.MainLogoContainer}>
-                <img src="/assets/images/MainLogo.svg" />
+                <img
+                    src="/assets/images/MainLogo.svg"
+                    alt="Application main logo"
+                />
             </div>
         </section>
     );
