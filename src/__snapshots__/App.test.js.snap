@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App should render corretly 1`] = `
+<main
+  className="App"
+>
+  <div
+    className="main-container-1"
+  >
+    <Navbar />
+    <div
+      className="main-container-2"
+    >
+      <Header />
+      <ContentView />
+    </div>
+  </div>
+</main>
+`;
