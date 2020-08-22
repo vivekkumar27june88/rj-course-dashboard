@@ -1,5 +1,7 @@
 # React Course Dashboard
 
+<img src="./docs/AppScreenshot.png" />
+
 ### Basic usage:
 #### 
 ```
@@ -19,3 +21,4 @@ $ yarn start
     - Unit test case for axios api calls.
     - Unit test case for useState, useEffect etc.
     - Exhaustive unit test cases.
+- Write PropsType
