@@ -14,7 +14,7 @@ const StudentMarkCard = (props) => {
     };
 
     return (
-        <div className={classes.StudentMarkCard}>
+        <div className={classes.StudentMarkCard} data-test="studentMarkCard">
             <div className={classes.Heading}>
                 <div className={classes.headingTitle}>
                     Students by avarage mark
