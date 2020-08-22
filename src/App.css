@@ -1,0 +1,23 @@
+:root {
+    --rcd-bg-col: #dfe1eb;
+    --rcd-sidenav-bg-col: #373b53;
+    --rcd-card-bg-col: #ffffff;
+    --rcd-text-secondary-col: #a6acbe;
+    --rcd-text-primary-col: #000000;
+}
+
+.App {
+    min-height: 100vh;
+    width: 100%;
+    background-color: var(--rcd-bg-col);
+}
+.main-container-1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.main-container-2 {
+    display: flex;
+    flex-direction: column;
+    width: calc(100vw - 100px);
+}

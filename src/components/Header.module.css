@@ -1,0 +1,6 @@
+.Header {
+    display: block;
+    width: 100%;
+    outline: 1px solid salmon;
+    height: calc(50px + 27px + 27px);
+}

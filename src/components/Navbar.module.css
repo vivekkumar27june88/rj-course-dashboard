@@ -1,0 +1,7 @@
+.Navbar {
+  display: block;
+  min-height: 100vh;
+  height: 100%;
+  width: 100px;
+  background-color: var(--rcd-sidenav-bg-col);
+}
