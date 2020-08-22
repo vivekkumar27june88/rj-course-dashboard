@@ -1,6 +1,34 @@
 .Header {
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
     width: 100%;
     outline: 1px solid salmon;
     height: calc(50px + 27px + 27px);
+    padding-right: 121px;
+}
+
+.ProfileContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.TextsContainer {
+    display: flex;
+    flex-direction: column;
+    padding-right: 14px;
+}
+
+.UserName {
+    color: var(--rcd-text-primary-col);
+}
+
+.Role {
+    padding-top: 5px;
+    color: var(--rcd-text-secondary-col);
+}
+
+.More {
+    padding-left: 18px;
+    align-self: center;
 }

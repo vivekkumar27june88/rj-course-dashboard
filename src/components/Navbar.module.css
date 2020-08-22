@@ -1,7 +1,15 @@
 .Navbar {
-  display: block;
-  min-height: 100vh;
-  height: 100%;
-  width: 100px;
-  background-color: var(--rcd-sidenav-bg-col);
+    display: block;
+    min-height: 100vh;
+    height: 100%;
+    width: 100px;
+    background-color: var(--rcd-sidenav-bg-col);
+}
+
+.MainLogoContainer {
+    width: 100px;
+    height: 100px;
+    display: grid;
+    place-content: center;
+    user-select: none;
 }
